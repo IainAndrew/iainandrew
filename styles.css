@@ -467,6 +467,26 @@ h1, h2 {
 	top:14em;
 	opacity:0;
 }
+#aboutcopy {
+	position:absolute;
+	top:6.5em;
+	left:5em;
+	height:19em;
+	width:28em;
+	font-family:'brandon_grotesque_regularRg';
+	font-size:1em;
+	opacity:0;
+	color:#509DD4;
+}
+span2 {
+	font-size:1.6em;
+}
+span3 {
+	font-size:1.2em;
+}
+span4 {
+	font-size:3.5em;
+}
 #mb {
 	position:absolute;
 	left:450px;
@@ -498,10 +518,13 @@ h1, h2 {
 	width:500px;
 	position:absolute;
 	left:155px;
-	top:14em;
+	top:13em;
 	font-family:Lucida Grande;
 	font-size:1.125em;
 	opacity:0;
+}
+span1 {
+	margin-left:2.5em;
 }
 /*------------------------------------------------------------------ WORK SECTION */
 #workrule {

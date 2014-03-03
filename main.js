@@ -96,7 +96,7 @@ $(document).ready(function() {
   		}
 	});
 	/*---------------------------------------------------- ABOUT SECTION */
-	$("#aboutbg").waypoint(function(direction) {
+	$("#about").waypoint(function(direction) {
 		if (direction == "down"){
 			$("#speech").stop().animate({opacity:1}, {duration:500});
 		} else if (direction == "up") {
@@ -104,6 +104,7 @@ $(document).ready(function() {
 			$("#iainskates").stop().animate({left:120}, {duration:1000});
 			$("#mbtext").animate({opacity:0}, {duration:200});
 			$("#mbscreen").animate({opacity:0}, {duration:200});
+			$("#aboutcopy").animate({opacity:0}, {duration:1000});
 		}
 	});
 
@@ -116,6 +117,7 @@ $(document).ready(function() {
     	var $mbtext = $("#mbtext");
     	var $mbscreen = $("#mbscreen");
     	var $speech = $("#speech");
+    	var $copy = $("#aboutcopy")
     
     	$(document).keydown(function(event) {
         	keys[event.which] = true;
@@ -129,6 +131,7 @@ $(document).ready(function() {
             $mbscreen.delay(1020).animate({opacity:1}, {duration:300});
             $mbtext.delay(1500).animate({opacity:1}, {duration:300});
             $speech.stop().animate({opacity:0}, {duration:300});
+            $copy.stop().animate({opacity:1}, {duration:2500});
         }
     	setTimeout(gameLoop, 20);
     }
