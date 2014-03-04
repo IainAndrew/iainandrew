@@ -510,7 +510,7 @@ a,a:link,a:visited {
 	position:absolute;
 	left:9.688em;
 	top:13em;
-	font-family:'wayfinding_sans_rgnregular';
+	font-family:Lucida Grande;
 	font-size:1.125em;
 	opacity:0;
 }
@@ -627,9 +627,6 @@ span3 {
 #graphiccontent {
 	right:-17em;
 }
-#choosecontent {
-	right:0;
-}
 .contentheader {
 	font-size:1em;
 	color:#4260A8;
@@ -701,60 +698,6 @@ span3 {
 	bottom:0;
 	height:50%;
 	background-color:#213E96;
-}
-@-webkit-keyframes cloud {
-    0%   { left: -30%; }
-    50%  { left: 110%; }
-    100% { left: -30%; }
-}
-@-moz-keyframes cloud {
-    0%   { left: -30%; }
-    50%  { left: 110%; }
-    100% { left: -30%; }
-}
-@keyframes cloud {
-    0%   { left: -30%; }
-    50%  { left: 110%; }
-    100% { left: -30%; }
-}
-@-webkit-keyframes cloud2 {
-    0%   { left: 110%; }
-    50%  { left: -30%; }
-    100% { left: 110%; }
-}
-@-moz-keyframes cloud2 {
-    0%   { left: 110%; }
-    50%  { left: -30%; }
-    100% { left: 110%; }
-}
-@keyframes cloud2 {
-    0%   { left: 110%; }
-    50%  { left: -30%; }
-    100% { left: 110%; }
-}
-#cloud1 {
-	position:absolute;
-	top:1em;
-	z-index:100;
-	-webkit-animation: cloud 40s linear infinite;
-    -moz-animation: cloud 40s linear infinite;
-    animation: cloud 40s linear  infinite;
-}
-#cloud2 {
-	position:absolute;
-	top:9em;
-	z-index:100;
-	-webkit-animation: cloud 75s linear infinite;
-    -moz-animation: cloud 75s linear infinite;
-    animation: cloud 75s linear  infinite;
-}
-#cloud3 {
-	position:absolute;
-	top:4em;
-	z-index:100;
-	-webkit-animation: cloud2 50s linear infinite;
-    -moz-animation: cloud2 50s linear infinite;
-    animation: cloud2 50s linear  infinite;
 }
 #hire_iain {
 	position:absolute;

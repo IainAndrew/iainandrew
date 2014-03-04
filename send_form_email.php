@@ -121,9 +121,30 @@ $headers = 'From: '.$email_from."\r\n".
  
 <!-- success html -->
  
+ <link type="text/css" rel="stylesheet" href="fonts/fonts.css"/>
  
- 
-<p style="font-size:5em;font-family:futura;color:#0197DD;text-align:center;margin-top:3em">thanks!<p>
+<p style="
+  font-size:5em;
+  font-family:'brandon_grotesque_regularRg';
+  color:#0197DD;
+  text-align:center;
+  margin-top:3em;
+  ">thanks!</p>
+
+<p style="
+  font-size:1.7em;
+  font-family:'brandon_grotesque_regularRg';
+  color:#0197DD;
+  text-align:center;
+  margin-top:-4em;
+  ">i'll get back to you shortly.</p>
+
+<a href="http://www.iainandrew.com"<p style="
+font-size:2em;
+font-family:'brandon_grotesque_regularRg';
+color:black;
+font-weight:normal;
+"><br>go back</p></a>
 
  
  

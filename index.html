@@ -75,7 +75,7 @@
 		<div id="mainanimation">
 			<div class="iain"><img src="images/iain5.png" alt=""></div>
 			<div class="iainshadow"><img src="images/iainshadow.png" alt=""></div>
-			<div class="mac"><a href="#"><img src="images/macbook4.png" alt=""></a></div>
+			<div class="mac"><img src="images/macbook4.png" alt=""></div>
 			<div class="appleback"></div>
 			<div class="applefront"></div>
 			<div class="table"><img src="images/table5.png" alt=""></div>
@@ -135,14 +135,22 @@
 		</div>
 		<div class="workcontent">
 			<div id="webcontent" class="bothcontent">
-				<a href="http://www.iainandrew.com/bestofdublin"><span5>best of dublin</span5></a>
+				<a href="http://www.iainandrew.com/bestofdublin"><div class="contentheader">- best of dublin -</div></a>
+				<div class="contentcopy">'Best of Dublin' is a single page web app I created. The idea is to show the visitor the absolute best spot in Dublin City in a variety of categories, eliminating the need to trawl through a list of places. I built this app with HTML5, CSS3 and jQuery.</div>
+				<a href="http://www.iainandrew.com/bestofdublin"><div class="contentimg"><img src="images/bestofdublin.png" alt=""></div></a>
 			</div>
 			<div id="graphiccontent" class="bothcontent">
-				
+				<div class="contentheader">- ernesto vargas lumber : logo design -</div>
+				<div class="contentcopy">This logo/icon was designed for Ernesto Vargas Lumber, a small lumber business in the US. They wanted an attractive yet simple, modern logo. I created this design with Adobe Illustrator.</div>
+				<a href="images/vargaslumber_large.png"><div class="contentimg"><img src="images/vargaslumber_small.png" alt=""></div></a>
 			</div>
-			<a href="#"><div id="webbutton" class="buttons">web</div></a>
-			<a href="#"><div id="graphicbutton" class="buttons">graphic</div></a>
+			<div id="choosecontent" class="bothcontent">
+				<div class="contentheader">choose a category</div>
+			</div>
+			<div id="webbutton" class="buttons">web</div>
+			<div id="graphicbutton" class="buttons">graphic</div>
 		</div>
+		<div class="horizontalrule" id="hirerule"></div>
 		<div id="hire"></div>
 		<div class="hireheader">
 			<div id="hire_header">
@@ -151,36 +159,42 @@
 			<img id="hire_diag" src="images/diag1.png" alt="">
 		</div>
 		<div class="hirecontent">
-			<form name="contactform" method="post" action="send_form_email.php">
+			<div id="hire_bgtop"></div>
+			<div id="hire_bgbottom"></div>
+			<div id="cloud1"><img src="images/cloudfloat.png" alt=""></div>
+			<div id="cloud2"><img src="images/cloudfloat.png" height="100px" width="150px" alt=""></div>
+			<div id="cloud3"><img src="images/cloudfloat.png" height="130px" width="200px"alt=""></div>
+			<div id="hire_iain"><img src="images/iainlie1.png" alt=""></div>
+			<form id="contactform" name="contactform" method="post" action="send_form_email.php">
 				<table width="450px">				 
-				<tr>
-					<td valign="top">
-						<label for="first_name">name *</label>
-					</td>
-					<td valign="top">
-						<input  type="text" name="first_name" maxlength="50" size="30">				 
-					</td>
-				</tr>
-					<td valign="top">
-				  <label for="email">email*</label>
-				 </td>
-				 <td valign="top">
-				  <input  type="text" name="email" maxlength="80" size="30">
-				 </td>
-				</tr>
-				<tr>
-				 <td valign="top">
-				  <label for="comments">message*</label>
-				 </td>
-				 <td valign="top">
-				  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
-				 </td>
-				</tr>
-				<tr>
-				 <td colspan="2" style="text-align:center">
-				  <input type="submit" value="Submit">
-				 </td>
-				</tr>
+					<tr>
+						<td valign="top">
+							<label for="first_name">name</label>
+						</td>
+						<td valign="top">
+							<input  type="text" name="first_name" maxlength="50" size="30">				 
+						</td>
+					</tr>
+						<td valign="top">
+							<label for="email">email</label>
+						</td>
+						<td valign="top">
+							<input  type="text" name="email" maxlength="80" size="30">
+						</td>
+					</tr>
+					<tr>
+						<td valign="top">
+							<label for="comments">message</label>
+						</td>
+						<td valign="top">
+							<textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" style="text-align:center">
+							<input id="submit" type="submit" value="submit">
+						</td>
+					</tr>
 				</table>
 			</form>
 		</div>

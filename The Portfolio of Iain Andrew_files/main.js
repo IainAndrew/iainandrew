@@ -165,17 +165,14 @@ $(document).ready(function() {
 		var $gBtn = $("#graphicbutton");
 		var $web = $("#webcontent");
 		var $graph = $("#graphiccontent");
-		var $choose = $("#choosecontent");
 
 		$wBtn.click(function(){
 			$web.stop().animate({right:0}, {duration:1000});
 			$graph.stop().animate({right:"-17em"}, {duration:1000});
-			$choose.stop().animate({right:"-17em"}, {duration:1000});
 		});
 		$gBtn.click(function(){
 			$graph.stop().animate({right:0}, {duration:1000});
 			$web.stop().animate({right:"-17em"}, {duration:1000});
-			$choose.stop().animate({right:"-17em"}, {duration:1000});
 		});
 	});
 
