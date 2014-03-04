@@ -8,6 +8,9 @@ body {
 h1, h2 {
 	font-weight: normal;
 }
+a,a:link,a:visited {
+	text-decoration:none;
+}
 .wrap {
 	width:100%;
 	height:100%;
@@ -548,6 +551,9 @@ span3 {
 #work { /* menu anchor link */
 	width:100%;
 	height:1px;
+	background-color:none;
+	position:relative;
+	top:-8.5em;
 }
 .workheader {
 	position:relative;
@@ -568,6 +574,60 @@ span3 {
 	z-index:-1;
 	top:-13.5em;
 	left:9.5em;
+}
+.workcontent {
+	position:relative;
+	top:-8em;
+	width:90%;
+	height:50em;
+	margin-left:auto;
+	margin-right:auto;
+}
+.buttons {
+	position:relative;
+	height:2em;
+	width:4em;
+	background-color:#0197DD;
+	color:white;
+	text-align:center;
+	vertical-align:middle;
+	line-height:2em;
+	margin-left:1.8em;
+	top:0;
+	left:0;
+	font-family:'brandon_grotesque_regularRg';
+	font-size:3em;
+	transition: background-color 0.35s ease;
+	transition-delay:0.05s;
+}
+#webbutton {
+	margin-bottom:0em;
+}
+#webbutton:hover {
+	background-color:#FF563B;
+	transition: background-color 0.35s ease;
+}
+#graphicbutton:hover {
+	background-color:#FF563B;
+	transition: background-color 0.35s ease;
+}
+.bothcontent {
+	position:absolute;
+	height:60%;
+	width:15.5em;
+	right:0;
+	font-family:'brandon_grotesque_regularRg';
+	font-size:3em;
+	text-align:center;
+}
+#webcontent {
+	background:lightblue;
+}
+span5 {
+	color:white;
+}
+#graphiccontent {
+
 }
 @media (max-width:1220px) {
 	.paper {

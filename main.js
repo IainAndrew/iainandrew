@@ -145,7 +145,7 @@ $(document).ready(function() {
 
 	var aboutScroll = $('#about').offset().top;
 	var workScroll = $('#work').offset().top;
-	/*var hireScroll = $('#hire').offset().top;*/
+	var hireScroll = $('#hire').offset().top;
 	
 	$('.aboutscroll').click(function(){
 		$('html, body').animate({scrollTop:aboutScroll}, 1000, 'easeInExpo');
