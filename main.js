@@ -2,7 +2,7 @@ $(document).ready(function() {
 	function preloadImg(src) {
     	$('<img/>')[0].src = src;
 	}
-	preloadImg("Images/about_icon_100x94.png", "Images/work_icon_100x97.png", "Images/hire_icon_90x90.png", "Images/about_icon_red_100x94.png", "Images/work_icon_red_100x97.png", "Images/hire_icon_red_90x90.png");
+	preloadImg("images/about_icon_100x94.png", "images/work_icon_100x97.png", "images/hire_icon_90x90.png", "images/about_icon_red_100x94.png", "images/work_icon_red_100x97.png", "images/hire_icon_red_90x90.png");
 
 
 
@@ -51,37 +51,37 @@ $(document).ready(function() {
 	});
 
 	$("#side_aboutbutton").hover(function() {
-		$("#side_abouticon").stop().animate({left:-100}, {duration:250});
-		$("#side_abouticon_red").stop().animate({left:10}, {duration:250});
-		$("#side_about_text").stop().animate({left:65}, {duration:250});
-		$("#side_about_underline").stop().animate({left:80}, {duration:400});
+		$("#side_abouticon").stop().animate({left:"-6.250em"}, {duration:250});
+		$("#side_abouticon_red").stop().animate({left:"0.625em"}, {duration:250});
+		$("#side_about_text").stop().animate({left:"4.063em"}, {duration:250});
+		$("#side_about_underline").stop().animate({left:"5.000em"}, {duration:400});
 	}, function() {
-		$("#side_abouticon").stop().animate({left:10}, {duration:250});
-		$("#side_abouticon_red").stop().animate({left:140}, {duration:250});
-		$("#side_about_text").stop().animate({left:-100}, {duration:150});
-		$("#side_about_underline").stop().animate({left:-100}, {duration:250});
+		$("#side_abouticon").stop().animate({left:"0.625em"}, {duration:250});
+		$("#side_abouticon_red").stop().animate({left:"8.750em"}, {duration:250});
+		$("#side_about_text").stop().animate({left:"-6.250em"}, {duration:150});
+		$("#side_about_underline").stop().animate({left:"-6.250em"}, {duration:250});
 	});
 	$("#side_workbutton").hover(function() {
-		$("#side_workicon").stop().animate({top:-96}, {duration:250});
-		$("#side_workicon_red").stop().animate({top:8}, {duration:250});
-		$("#side_work_text").stop().animate({left:65}, {duration:250});
-		$("#side_work_underline").stop().animate({left:80}, {duration:400});
+		$("#side_workicon").stop().animate({top:"-6.000em"}, {duration:250});
+		$("#side_workicon_red").stop().animate({top:"0.500em"}, {duration:250});
+		$("#side_work_text").stop().animate({left:"4.063em"}, {duration:250});
+		$("#side_work_underline").stop().animate({left:"5.000em"}, {duration:400});
 	}, function() {
-		$("#side_workicon").stop().animate({top:8}, {duration:250});
-		$("#side_workicon_red").stop().animate({top:140}, {duration:250});
-		$("#side_work_text").stop().animate({left:-100}, {duration:150});
-		$("#side_work_underline").stop().animate({left:-100}, {duration:150});
+		$("#side_workicon").stop().animate({top:"0.500em"}, {duration:250});
+		$("#side_workicon_red").stop().animate({top:"8.750em"}, {duration:250});
+		$("#side_work_text").stop().animate({left:"-6.250em"}, {duration:150});
+		$("#side_work_underline").stop().animate({left:"-6.250em"}, {duration:150});
 	});
 	$("#side_hirebutton").hover(function() {
-		$("#side_hireicon").stop().animate({left:140}, {duration:250});
-		$("#side_hireicon_red").stop().animate({left:11}, {duration:250});
-		$("#side_hire_text").stop().animate({left:65}, {duration:250});
-		$("#side_hire_underline").stop().animate({left:80}, {duration:400});
+		$("#side_hireicon").stop().animate({left:"8.750em"}, {duration:250});
+		$("#side_hireicon_red").stop().animate({left:"0.688em"}, {duration:250});
+		$("#side_hire_text").stop().animate({left:"4.063em"}, {duration:250});
+		$("#side_hire_underline").stop().animate({left:"5.000em"}, {duration:400});
 	}, function() {
-		$("#side_hireicon").stop().animate({left:11}, {duration:250});
-		$("#side_hireicon_red").stop().animate({left:-90}, {duration:250});
-		$("#side_hire_text").stop().animate({left:-100}, {duration:150});
-		$("#side_hire_underline").stop().animate({left:-100}, {duration:150});
+		$("#side_hireicon").stop().animate({left:"0.688em"}, {duration:250});
+		$("#side_hireicon_red").stop().animate({left:"-5.625em"}, {duration:250});
+		$("#side_hire_text").stop().animate({left:"-6.250em"}, {duration:150});
+		$("#side_hire_underline").stop().animate({left:"-6.250em"}, {duration:150});
 	});
 
 
@@ -92,7 +92,7 @@ $(document).ready(function() {
   		if (direction == "down") {
   			$(".sidemenu").stop().animate({left:0}, {duration:500});
   		} else if (direction == "up") {
-  			$(".sidemenu").stop().animate({left:-80}, {duration:1000});
+  			$(".sidemenu").stop().animate({left:"-5.000em"}, {duration:1000});
   		}
 	});
 	/*---------------------------------------------------- ABOUT SECTION */
@@ -101,7 +101,7 @@ $(document).ready(function() {
 			$("#speech").stop().animate({opacity:1}, {duration:500});
 		} else if (direction == "up") {
 			$("#speech").stop().animate({opacity:0}, {duration:300});
-			$("#iainskates").stop().animate({left:120}, {duration:1000});
+			$("#iainskates").stop().animate({left:"7.500em"}, {duration:1000});
 			$("#mbtext").animate({opacity:0}, {duration:200});
 			$("#mbscreen").animate({opacity:0}, {duration:200});
 			$("#aboutcopy").animate({opacity:0}, {duration:1000});
@@ -127,7 +127,7 @@ $(document).ready(function() {
     
     function gameLoop() {
     	if (keys[32]) {     // spacebar
-        	$usb.stop().animate({left:300}, {duration:1000});
+        	$usb.stop().animate({left:"17.750em"}, {duration:1000});
             $mbscreen.delay(1020).animate({opacity:1}, {duration:300});
             $mbtext.delay(1500).animate({opacity:1}, {duration:300});
             $speech.stop().animate({opacity:0}, {duration:300});
